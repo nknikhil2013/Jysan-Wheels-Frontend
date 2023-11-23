@@ -1,11 +1,11 @@
 
 
 body{
-  background: url('src/components/about7.jpg') center/cover fixed;
+  background: url('./src/components/about7.jpg') center/cover fixed;
 }
 
 .about-body {
-  background: url('src/components/about9.jpg') center/cover fixed; /* Replace with your image path */
+  background: url('./src/components/about9.jpg') center/cover fixed; /* Replace with your image path */
   background-color: #f8f8f8; /* Fallback background color */
   color: #333; /* Dark text color */
 }
