@@ -1,7 +1,7 @@
 /* Home.css */
 
 .home-background {
-   background: url('E:\Ethnus Internship\JYSAN-WHEELS-final\Frontend\src\components\about7.jpg') center/cover fixed; 
+   background: url('src/components/about7.jpg') center/cover fixed; 
     min-height: 100vh;
     display: flex;
     align-items: center;
