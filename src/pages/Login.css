@@ -1,0 +1,79 @@
+.login,.register {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('E:\Ethnus Internship\JYSAN-WHEELS-final\Frontend\src\components\about7.jpg') no-repeat;
+  background-size: cover;
+}
+
+.transparent-container {
+  background-color: transparent; /* Transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  width: 100vh;
+  z-index: 1;
+}
+
+
+.bluepart {
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 37.33%; /* 1/3 of the screen */
+  background: linear-gradient(135deg, #3498db,#6f7b88);
+  z-index:0;
+}
+
+.logo{
+  width: 250px;
+  height:250px;
+  background-image: url('E:\Ethnus Internship\JYSAN-WHEELS-final\Frontend\src\components\JYSANLgo.png');
+  background-size:cover;
+  position: absolute;
+  top:50%;
+  left:100px;
+  transform:translateY(-50%);
+  
+}
+
+.login-form Input{
+  background-color: #b9d8ed;
+  width:250px
+}
+
+.car-svg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.login-form h3 {
+  margin-bottom: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.login-form button{
+  border: none;
+  padding:8px;
+  width: 150px;
+  color: white;
+  background-color: rgb(215, 215, 62);
+  border-radius: 10px;
+  transition:background-color 0.2s ease-in-out;
+}
+
+.login-form button:hover{
+  background-color: rgb(116, 116, 32);
+}
+

@@ -1,0 +1,174 @@
+
+
+body{
+  background: url('E:\Ethnus Internship\JYSAN-WHEELS-final\Frontend\src\components\about7.jpg') center/cover fixed;
+}
+
+.about-body {
+  background: url('E:\Ethnus Internship\JYSAN-WHEELS-final\Frontend\src\components\about9.jpg') center/cover fixed; /* Replace with your image path */
+  background-color: #f8f8f8; /* Fallback background color */
+  color: #333; /* Dark text color */
+}
+
+.container {
+  padding-top: 50px;
+}
+
+/* Styling for the team members section */
+.Profile {
+  background: linear-gradient(45deg, #ff6b6b, #ffe066);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.Profile:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.Profile h1 {
+  color: #000; /* Black text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.col-sm {
+  margin-bottom: 30px;
+}
+
+/* Styling for mission and journey sections */
+.Mission,
+.Journey {
+  background: linear-gradient(45deg, #64b5f6, #81c784);
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.Mission:hover,
+.Journey:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the technology stack section */
+.Tech-stack {
+  background: linear-gradient(45deg, #ffb74d, #4caf50);
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.Tech-stack:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.Tech-stack h1 {
+  color: #000; /* Black text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the contact section */
+.Contact {
+  background: linear-gradient(45deg, #26c6da, #b2ebf2);
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.Contact:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the acknowledgments and plans sections */
+.Acknowledgments,
+.Plans {
+  background: linear-gradient(45deg, #ffca28, #81d4fa);
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.Acknowledgments:hover,
+.Plans:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the About section */
+.About {
+  color: #000; /* Black text color */
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #fc5185, #3f51b5); /* Gradient from vibrant pink to deep purple */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.About:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.About h1 {
+  color: #000; /* Black text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the Our Car Rental Service section */
+.OurService {
+  background-color: #4caf50;
+  color: #000; /* Black text color */
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.OurService:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.OurService h1 {
+  color: #000; /* Black text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the Final section */
+.final {
+  color: #000; /* Black text color */
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #ff5722, #673ab7); /* Gradient from deep orange to deep purple */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.final:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Add more styles as needed */
+
+
+/* Add this CSS for hover effect */
+.hover-zoom:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
