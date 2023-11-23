@@ -5,7 +5,7 @@ body{
 }
 
 .about-body {
-  background: url('./src/components/about9.jpg') center/cover fixed; /* Replace with your image path */
+  background: url('https://github.com/nknikhil2013/Jysan-Wheels-Frontend/blob/5c27e0790ae582499ea1cb93e32aca43b4dff170/src/components/about9.jpg') center/cover fixed; /* Replace with your image path */
   background-color: #f8f8f8; /* Fallback background color */
   color: #333; /* Dark text color */
 }
