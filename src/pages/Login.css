@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('E:\Ethnus Internship\JYSAN-WHEELS-final\Frontend\src\components\about7.jpg') no-repeat;
+  background: url('src/components/about7.jpg') no-repeat;
   background-size: cover;
 }
 
