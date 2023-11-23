@@ -30,7 +30,7 @@
 .logo{
   width: 250px;
   height:250px;
-  background-image: url('E:\Ethnus Internship\JYSAN-WHEELS-final\Frontend\src\components\JYSANLgo.png');
+  background-image: url('src/components/JYSANLgo.png');
   background-size:cover;
   position: absolute;
   top:50%;
