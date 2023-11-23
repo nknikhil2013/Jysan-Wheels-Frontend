@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('./src/components/about7.jpg') no-repeat;
+  background: url('https://github.com/nknikhil2013/Jysan-Wheels-Frontend/blob/ac953c3eb5b1820b91a325c7b671099dad0dd507/src/components/about7.jpg') no-repeat;
   background-size: cover;
 }
 
