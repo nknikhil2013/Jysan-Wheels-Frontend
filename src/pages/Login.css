@@ -30,7 +30,7 @@
 .logo{
   width: 250px;
   height:250px;
-  background-image: url('./src/components/JYSANLgo.png');
+  background-image: url('https://github.com/nknikhil2013/Jysan-Wheels-Frontend/blob/fa66ae0dc3b6dac8c6145a24af705c3f29fd5543/src/components/JYSANLgo.png');
   background-size:cover;
   position: absolute;
   top:50%;
