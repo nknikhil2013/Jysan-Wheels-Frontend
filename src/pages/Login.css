@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('src/components/about7.jpg') no-repeat;
+  background: url('./src/components/about7.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -30,7 +30,7 @@
 .logo{
   width: 250px;
   height:250px;
-  background-image: url('src/components/JYSANLgo.png');
+  background-image: url('./src/components/JYSANLgo.png');
   background-size:cover;
   position: absolute;
   top:50%;
