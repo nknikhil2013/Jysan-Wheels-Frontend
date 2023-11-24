@@ -6,7 +6,7 @@ export const userLogin=(reqObj)=>async dispatch=>{
 
 
     try{
-        const response = await axios.post('https://backend-jw.onrender.com/api/users/login',reqObj)
+        const response = await axios.post('https://jw-backend-project.onrender.com/api/users/login',reqObj)
         localStorage.setItem('user',JSON.stringify(response.data))
         message.success('Login success');
         dispatch({type:'LOADING',payload:false})
@@ -25,7 +25,7 @@ export const userRegister=(reqObj)=>async dispatch=>{
     dispatch({type:"LOADING",payload:true})
 
     try{
-        const response = await axios.post('https://backend-jw.onrender.com/api/users/register',reqObj)
+        const response = await axios.post('https://jw-backend-project.onrender.com/api/users/register',reqObj)
         message.success("Registration Successful")
         setTimeout(() => {
             window.location.href='/login' 
