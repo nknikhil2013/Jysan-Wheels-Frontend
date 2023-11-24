@@ -5,7 +5,7 @@ export const getAllCars = () => async dispatch => {
   dispatch({ type: 'LOADING', payload: true });
 
   try {
-    const response = await axios.get('https://backend-jw.onrender.com/api/cars/getallcars');
+    const response = await axios.get('https://jw-backend-project.onrender.com/api/cars/getallcars');
     dispatch({ type: 'GET_ALL_CARS', payload: response.data });
     dispatch({ type: 'LOADING', payload: false });
   } catch (error) {
@@ -18,7 +18,7 @@ export const addCar=(reqObj)=>async dispatch=>{
   dispatch({ type: 'LOADING', payload: true });
 
   try {
-    await axios.post('https://backend-jw.onrender.com/api/cars/addcar', reqObj);
+    await axios.post('https://jw-backend-project.onrender.com/api/cars/addcar', reqObj);
     dispatch({ type: 'LOADING', payload: false });
     message.success('New car added successfully')
     setTimeout(()=>{
@@ -32,7 +32,7 @@ export const addCar=(reqObj)=>async dispatch=>{
 export const editCar=(reqObj)=>async dispatch=>{
   dispatch({ type: 'LOADING', payload: true })
   try {
-    await axios.post('https://backend-jw.onrender.com/api/cars/editcar',reqObj);
+    await axios.post('https://jw-backend-project.onrender.com/api/cars/editcar',reqObj);
     dispatch({ type: 'LOADING', payload: false })
     message.success('Car details updated successfully')
     setTimeout(() =>{
@@ -46,7 +46,7 @@ export const editCar=(reqObj)=>async dispatch=>{
 export const deleteCar=(reqObj)=>async dispatch=>{
     dispatch({type: 'LOADING' , payload:true})
     try{
-        await axios.post('https://backend-jw.onrender.com/api/cars/deletecar' , reqObj)
+        await axios.post('https://jw-backend-project.onrender.com/api/cars/deletecar' , reqObj)
 
         dispatch({type: 'LOADING' , payload:false})
         message.success('Car deleted sucessfully')
